@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <script>
+    function fetch ()
+    {    
+        var get= document.getElementById ("get").value;
+        document.getElementById ("put").value= get
+    }
+    </script>
+</head>
+
+<body>
+
+<form>
+    <!--Campo de texto para el nombre-->
+    <label for="Nombre"> Nombre</label><br>
+    <input type="text" id="name" name="name" placeholder="Ingrese su Nombre"> <br><br>
+    <!--campo de texto para el email-->
+    <label for="email">Email</label><br>
+    <input type="text" id="mail" name="mail" placeholder="Ingrese su email"><br><br>
+    <!--campo de texto para la contraseña-->
+    <label for="contraseña">Contraseña</label><br>
+    <input type="text" id="password" name="password" placeholder="Ingrese su contraseña"><br><br>
+    <!--checkbox para recordar usuario-->
+    <input type="checkbox" id="checkbox" name="checkbox"> <label for="checkbox">Recordar usuario</label><br><br>
+    <!--Select-->
+    <select>
+        <option selected >¿Como se enteró de la página?</option>
+        <option value="1">Me enteré de la página por un amigo </option>
+        <option value="2">Me saltó en la Web o alguna red social</option>
+        <option value="3">Ni yo sé como la encontré</option>
+        <option value="4">Otro</option> <input type="text" id="motivo" name="motivo" placeholder="explique como se enteró">
+    </select><br><br>
+    <!--input tipo date para sección de fecha-->
+    <input type="date" name="data"> <br><br>
+    <!--boton de enviar-->
+    <button value="boton">Iniciar sesion</button> <br><br>
+    <!--input color-->
+    <label for="color" id="get" onchange="fetch()"></label>
+    <input type="color"><br>
+    <input type="text" id="put"><br>
+    <input type="submit"/>
+</form>
+</body>
+</html>

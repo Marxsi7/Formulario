@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="formulario.ccs">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +20,14 @@
          <!--checkbox para recordar usuario-->
          <input type="checkbox" id="checkbox" name="checkbox"> <label for="checkbox">Recordar usuario</label><br><br>
          <!--boton de enviar-->
-         <button value="boton">Iniciar sesion</button>
-    
+         <button value="boton">Iniciar sesion</button> <br><br>
+         <!--Select-->
+         <select>
+             <option value="">Me enteré de la página por un amigo </option>
+             <option value="">Me saltó en la Web o alguna red social</option>
+             <option value="">Ni yo sé como la encontré</option>
+             <option value="">Otro</option> <input type="text" id="motivo" name="motivo" placeholder="explique como se enteró">
+         </select>
 </form>
     
 </body>

@@ -1,0 +1,9 @@
+body {
+color: rgb(0, 0, 0);
+background-image: url(https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+}
+
+form {
+   width: auto;
+   margin-left: 500px;
+}

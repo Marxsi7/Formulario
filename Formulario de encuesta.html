@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo de Sitio web-->
+    <title>Formulario de encuesta</title>
+</head>
+<body>
+    <!--nombre-->
+    <label for="Nombre"> Nombre</label><br>
+    <input type="text" id="name" name="name" placeholder="Ingrese su Nombre"> <br><br>
+    <!--email-->
+    <label for="email">Email</label><br>
+    <input type="text" id="mail" name="mail" placeholder="Ingrese su email"><br><br>
+    <!--contraseña-->
+    <label for="contraseña">Contraseña</label><br>
+    <input type="text" id="password" name="password" placeholder="Ingrese su contraseña"><br><br>
+    <!--checkbox para recordar usuario-->
+    <label for="Opciones"> Opciones</label><br> <br>
+    
+    <input type="checkbox" id="checkbox" name="checkbox"> <label for="checkbox">1</label><br><br>
+    <input type="checkbox" id="checkbox" name="checkbox"> <label for="checkbox">2</label><br><br>
+    <input type="checkbox" id="checkbox" name="checkbox"> <label for="checkbox">3</label><br><br>
+    <input type="checkbox" id="checkbox" name="checkbox"> <label for="checkbox">4</label><br><br>
+    <br><!--imput tipo radio-->
+    <input type="radio" id="radio" name="radio"> <label for="radio">A</label><br><br>
+    <input type="radio" id="radio" name="radio"> <label for="radio">B</label><br><br>
+    <input type="radio" id="radio" name="radio"> <label for="radio">C</label><br><br>
+    <input type="radio" id="radio" name="radio"> <label for="radio">D</label><br><br>
+    <!--Select-->
+    <select>
+        <option selected >¿Como se enteró de la página?</option>
+        <option value="1">Me enteré de la página por un amigo </option>
+        <option value="2">Me saltó en la Web o alguna red social</option>
+        <option value="3">Ni yo sé como la encontré</option>
+        <option value="4">Otro</option> <input type="text" id="motivo" name="motivo" placeholder="explique como se enteró">
+    </select><br><br>
+    <!--boton de enviar-->
+    <label for="Aprete el boton y envie su formuarlio"> Aprete el boton y envie su formuarlio</label><br> <br>
+    <button value="boton">Enviar formulario</button> <br><br>
+    <!--input tipo month para sección de fecha-->
+    <label for="Seleccione mes y año"> Seleccione mes y año</label><br> <br>
+    <input type="month" name="data"> <br><br>
+    <!--input tipo date para sección de fecha-->
+    <label for="Slecciones fecha">Seleccione la fecha</label><br> <br>
+    <input type="date" name="data"> <br><br>
+    <!--input tipo time para sección de fecha-->
+    <label for="Seleccione el horario"> Eliga su horario</label><br> <br>
+    <input type="time" name="data"> <br><br>
+</body>
+</html>
